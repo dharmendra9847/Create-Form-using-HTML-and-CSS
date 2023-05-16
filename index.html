@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>How to Create Form in HTML and CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <h1>Create Your Account</h1>
+            <form class="frm">
+                <table>
+                    <tr>
+                        <td>
+                            <label>Enter Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="fullname" class="txt" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Enter Email ID:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" class="txt" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Enter Username:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="username" class="txt" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Enter Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" name="password" class="txt" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Confirm Your Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" name="cpassword" class="txt" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gender:</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="male" required><span>Male</span>
+                            <input type="radio" name="gender" value="female" required><span>Female</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <input type="submit" name="create" value="Create Account" class="btn">
+                            <input type="reset" name="clear" value="Clear Form" class="btn">
+                        </td>
+                    </tr>
+                    
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
